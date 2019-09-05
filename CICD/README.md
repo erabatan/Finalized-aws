@@ -12,13 +12,13 @@ Using templates to test and quickly integrate these solutions make these moves e
 ### About Taskcat
 AWS provides a builtin application called <a href="https://aws-quickstart.github.io/auto-testing.html">taskcat</a> which has been designed to test templates (CloudFormation stacks) and generates reports from this activity.
 Taskcat application handles the following:
-    - Powers the Quick Start CI system. Every change that is published to the master branch of a Quick Start runs through TaskCat.
-    - Stages your code to Amazon S3 for testing in one or more regions.
-    - Uses a parameters file to pass input parameters to CreateStack.
-    - Uses runtime injection to dynamically generate stack inputs.
-    - Collects logs from the CloudFormation stack (including nested stacks).
-    - Cleans up stacks and staging assets.
-    - Generates test reports for every requested test region.
+- Powers the Quick Start CI system. Every change that is published to the master branch of a Quick Start runs through TaskCat.
+- Stages your code to Amazon S3 for testing in one or more regions.
+- Uses a parameters file to pass input parameters to CreateStack.
+- Uses runtime injection to dynamically generate stack inputs.
+- Collects logs from the CloudFormation stack (including nested stacks).
+- Cleans up stacks and staging assets.
+- Generates test reports for every requested test region.
 
 TaskCat supports all major Linux distributions and MacOS. (For Windows, use the Bash shell.)
 
