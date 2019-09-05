@@ -9,7 +9,7 @@ Using templates to test and quickly integrate these solutions make these moves e
 
 ## Design
 
-# About Taskcat
+### About Taskcat
 AWS provides a builtin application called <a href="https://aws-quickstart.github.io/auto-testing.html">taskcat</a> which has been designed to test templates (CloudFormation stacks) and generates reports from this activity.
 Taskcat application handles the following:
     - Powers the Quick Start CI system. Every change that is published to the master branch of a Quick Start runs through TaskCat.
@@ -22,7 +22,7 @@ Taskcat application handles the following:
 
 TaskCat supports all major Linux distributions and MacOS. (For Windows, use the Bash shell.)
 
-# the added value of this template
+### the added value of this template
 Here we use specific AWS services like CodePipeline and CodeBuild to launch a linux container where taskcat will be automatically installed. CodePipeline is able to retrieve your templates from your Github repository before forwarding the content to CodeBuild for technical testing (creates stack, tests and generates reports via taskcat).
 
 After you have installed this template, you will be able to automatically run tests of your templates everytime you commit a change to your github repository. 
