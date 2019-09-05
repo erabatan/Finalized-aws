@@ -22,7 +22,7 @@ Taskcat application handles the following:
 
 TaskCat supports all major Linux distributions and MacOS. (For Windows, use the Bash shell.)
 
-### the added value of this template
+### The added value of this template
 Here we use specific AWS services like CodePipeline and CodeBuild to launch a linux container where taskcat will be automatically installed. CodePipeline is able to retrieve your templates from your Github repository before forwarding the content to CodeBuild for technical testing (creates stack, tests and generates reports via taskcat).
 
 After you have installed this template, you will be able to automatically run tests of your templates everytime you commit a change to your github repository. 
