@@ -94,13 +94,13 @@ There are many ways to launch an API call. Here we propose two options: "curl" a
 - Do not forget to insert the key. You are ready to go !
 
 You can also use the "curl" command from any terminal. The command is:
-[curl -v -X POST -H "x-api-key: <your key>" <API endpoint>]
+curl -v -X POST -H "x-api-key: your key" API endpoint
 
 ### 3. Test the workflow
 You can test the workflow three ways:
 - Commit any change to your template on your github account
 - Use curl command to generate an API call to API gateway.
-- Just psuh the virtual button in Flic application:
+- Just push the virtual button in Flic application:
 
 ![click](images/click.png)
 
