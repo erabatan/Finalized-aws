@@ -30,7 +30,7 @@ Moreover this template generates an API Gateway so as you can launch a test from
 
 Here are the AWS services involved in this template:
 <img class="fit-picture"
-     src="/images/workflow.png"
+     src="../images/workflow.png"
      alt="workflow">
 
 ## Deployment
