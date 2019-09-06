@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "Mysubnet",
+        "ParameterValue": "10.0.0.0/24"
+    },
+    {
+        "ParameterKey": "MySSHkey",
+        "ParameterValue": "london-key"
+    }
+]

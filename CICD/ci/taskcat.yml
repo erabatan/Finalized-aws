@@ -1,0 +1,13 @@
+global:
+  marketplace-ami: false
+  owner: erabatan@fortinet.com
+  qsname: fortinet-aws
+  regions:
+  - eu-west-2
+  reporting: true
+tests:
+  byolnew:
+    parameter_input: taskcat_XXXXXX.json
+    regions:
+    - eu-west-2
+    template_file: your-template.json
